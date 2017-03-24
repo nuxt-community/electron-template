@@ -1,6 +1,7 @@
 /*
 **  Nuxt.js part
 */
+process.env.NODE_ENV = process.env.NODE_ENV || 'production'
 let win = null // Current window
 
 const http = require('http')

@@ -7,9 +7,10 @@
   "author": "Alexander Roberts <detrohutt@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "electron .",
+    "dev": "cross-env NODE_ENV=development electron .",
     "build": "nuxt build",
-    "start": "cross-env NODE_ENV=production electron ."
+    "start": "electron .",
+    "pack": "npm run build && electron-packager ./ --overwrite"
   },
   "dependencies": {
     "cross-env": "^3.1.4",

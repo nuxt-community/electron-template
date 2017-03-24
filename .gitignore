@@ -9,3 +9,9 @@ npm-debug.log
 
 # Nuxt generate
 dist
+
+# Mac OS
+.DS_Store
+
+# Electron-packager
+electronuxt-*
