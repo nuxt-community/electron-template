@@ -9,6 +9,7 @@ const Nuxt = require('nuxt')
 // Import and Set Nuxt.js options
 let config = require('./nuxt.config.js')
 config.dev = !(process.env.NODE_ENV === 'production')
+config.rootDir = __dirname // for electron-packager
 
 // Init Nuxt.js
 const nuxt = new Nuxt(config)
