@@ -15,6 +15,6 @@
   "dependencies": {
     "cross-env": "^3.1.4",
     "electron": "^1.4.15",
-    "nuxt": "^0.9.9"
+    "nuxt": "latest"
   }
 }
