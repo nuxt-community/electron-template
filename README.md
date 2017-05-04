@@ -33,7 +33,3 @@ npm run pack
 ```
 
 See more on [electron-packager documentation](https://github.com/electron-userland/electron-packager).
-
-## Maintainers
-
-- [@detrohutt](https://github.com/detrohutt)
