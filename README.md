@@ -1,4 +1,6 @@
 # Electron
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/nuxt-community/electron-template.svg)](https://greenkeeper.io/)
 Create an Electron app that serves a Nuxt.js app
 
 ## Installation
