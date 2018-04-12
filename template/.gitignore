@@ -12,6 +12,3 @@ dist
 
 # Mac OS
 .DS_Store
-
-# Electron-packager
-electronuxt-*
