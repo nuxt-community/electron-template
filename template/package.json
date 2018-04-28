@@ -4,18 +4,22 @@
   "description": "{{ description }}",
   "author": "{{ author }}",
   "private": true,
-  "main": "main.js",
+  "main": "./dist/electron/main.js",
   "build": {
     "appId": "{{ appId }}",
     "directories": {
       "buildResources": "static"
-    }
+    },
+    "files": [
+      "dist/electron/**/*"
+    ]
   },
   "scripts": {
-    "dev": "cross-env NODE_ENV=DEV electron .",
-    "build": "nuxt build && electron-builder"
+    "dev": "cross-env NODE_ENV=DEV electron ./main.js",
+    "build": "nuxt generate && cp main.js dist/electron/ && cp nuxt.config.js dist/electron/ && electron-builder"
   },
   "dependencies": {
+    "electron-debug": "^1.5.0",
     "nuxt": "^1.4.0"
   },
   "devDependencies": {
