@@ -6,7 +6,7 @@
   "private": true,
   "main": "./dist/electron/main.js",
   "build": {
-    "appId": "com.electron.dbmeter",
+    "appId": "{{ appId }}",
     "directories": {
       "buildResources": "static"
     },
