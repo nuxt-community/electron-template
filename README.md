@@ -2,6 +2,11 @@
     <img width="128" src="https://raw.githubusercontent.com/nuxt-community/electron-template/master/template/static/icon.png">
 </p>
 
+# Please read this first 👇
+
+This template might be soon archived, if you are willing to help us maintaining it, please answer to [this issue](https://github.com/nuxt-community/electron-template/issues/41)
+
+
 # electron-template
 
 A starter project template for use with [vue-cli](https://github.com/vuejs/vue-cli) that combines [Nuxt.js](https://github.com/nuxt/nuxt.js) with [Electron](https://electronjs.org/).
