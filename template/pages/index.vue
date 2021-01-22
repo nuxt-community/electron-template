@@ -1,31 +1,72 @@
 <template>
-	<section class="container">
-		<div>
-			<img width="256" src="~/assets/img/logo.png">
-			<h1>{{name}}</h1>
-			<h2>{{description}}</h2>
-			<a href="https://nuxtjs.org/" target="_blank" class="btn btn-primary">Documentation</a>
-			<a href="https://github.com/nuxt/nuxt.js" target="_blank" class="btn btn-primary">GitHub</a>
-			<a href="https://electronjs.org/" target="_blank" class="btn btn-secondary">Electron</a>
-			<a href="https://github.com/electron-userland/electron-builder" target="_blank" class="btn btn-secondary">Electron Builder</a>
-		</div>
-	</section>
+  <div class="container">
+    <div>
+      <NuxtLogo />
+      <ElectronLogo />
+      <h1 class="title">nuxt-electron-test</h1>
+      <div class="links">
+        <a
+          href="https://nuxtjs.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button--green"
+        >
+          Nuxt
+        </a>
+        <a
+          href="https://electronjs.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button--grey"
+        >
+          Electron
+        </a>
+        <a
+          href="https://www.electron.build/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button--grey"
+        >
+          Electron Builder
+        </a>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
-export default {
-}
+export default {}
 </script>
 
-<style scoped>
+<style>
 .container {
-	min-height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-.btn {
-	margin: 0 8px;
+
+.title {
+  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  display: block;
+  font-weight: 300;
+  font-size: 100px;
+  color: #35495e;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-weight: 300;
+  font-size: 42px;
+  color: #526488;
+  word-spacing: 5px;
+  padding-bottom: 15px;
+}
+
+.links {
+  padding-top: 15px;
 }
 </style>
