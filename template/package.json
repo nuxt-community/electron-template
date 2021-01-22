@@ -8,7 +8,7 @@
   "build": {
     "appId": "{{ appId }}",
     "directories": {
-      "buildResources": "static"
+      "buildResources": "build-resources"
     }
   },
   "scripts": {
