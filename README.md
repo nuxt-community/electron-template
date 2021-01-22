@@ -9,21 +9,20 @@ This template might be soon archived, if you are willing to help us maintaining 
 
 # electron-template
 
-A starter project template for use with [@vue/cli-init](https://cli.vuejs.org/guide/creating-a-project.html#pulling-2-x-templates-legacy) that combines [Nuxt.js](https://github.com/nuxt/nuxt.js) with [Electron](https://electronjs.org/).
+A starter project template that combines [Nuxt.js](https://github.com/nuxt/nuxt.js) with [Electron](https://electronjs.org/).
 
-> For the original clonable (not @vue/cli-init) version use the [git-clone branch](https://github.com/nuxt-community/electron-template/tree/git-clone).
+> For the @vue/cli-init version (not-clonable) use the [master branch](https://github.com/nuxt-community/electron-template/tree/master).
 
 ## Prerequisites
 
 The following software must be installed:
 * node 12.18+
 * npm 6.14+
-* @vue/cli-init 4.5+
 
 ## Installation
 
 ``` bash
-$ vue init nuxt-community/electron-template my-project  
+$ git clone --single-branch --branch git-clone https://github.com/nuxt-community/electron-template.git my-project
 $ cd my-project
 # install dependencies
 $ npm install # Or yarn

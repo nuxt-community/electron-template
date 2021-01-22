@@ -1,12 +1,12 @@
 {
-  "name": "{{ name }}",
+  "name": "nuxt-electron-template",
   "version": "1.0.0",
-  "description": "{{ description }}",
-  "author": "{{ author }}",
+  "description": "Nuxt + Electron Template",
+  "author": "Jon Doe <john@doe.com>",
   "private": true,
   "main": "main.js",
   "build": {
-    "appId": "{{ appId }}",
+    "appId": "com.example.app",
     "directories": {
       "buildResources": "build-resources"
     }
