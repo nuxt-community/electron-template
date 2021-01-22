@@ -13,7 +13,8 @@
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=DEV electron .",
-    "build": "nuxt build && electron-builder"
+    "build": "nuxt build && electron-builder",
+    "lint": "eslint --ext \".js,.vue\" --ignore-path .gitignore ."
   },
   "dependencies": {
     "nuxt": "^2.14.12"
