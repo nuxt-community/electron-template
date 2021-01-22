@@ -16,17 +16,21 @@
     "build": "nuxt build && electron-builder"
   },
   "dependencies": {
-    "nuxt": "^1.4.0"
+    "nuxt": "^2.14.12"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.1",
-    "cross-env": "^5.1.4",
-    "electron": "2.0.0-beta.7",
-    "electron-builder": "^20.8.1",
-    "electron-devtools-installer": "^2.2.3",
-    "eslint": "^4.15.0",
-    "eslint-friendly-formatter": "^3.0.0",
-    "eslint-loader": "^1.7.1",
-    "eslint-plugin-vue": "^4.0.0"
+    "@nuxtjs/eslint-config": "^5.0.0",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "babel-eslint": "^10.1.0",
+    "cross-env": "^7.0.3",
+    "electron": "^11.2.0",
+    "electron-builder": "^22.9.1",
+    "electron-devtools-installer": "^3.1.1",
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^7.4.1",
+    "prettier": "^2.2.1"
   }
 }
