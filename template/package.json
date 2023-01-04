@@ -8,7 +8,8 @@
   "build": {
     "appId": "{{ appId }}",
     "directories": {
-      "buildResources": "static"
+      "buildResources": "static",
+      "output": "build"
     }
   },
   "scripts": {
@@ -16,17 +17,19 @@
     "build": "nuxt build && electron-builder"
   },
   "dependencies": {
-    "nuxt": "^1.4.0"
+    "nuxt": "^2.15.7"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.1",
-    "cross-env": "^5.1.4",
-    "electron": "2.0.0-beta.7",
-    "electron-builder": "^20.8.1",
-    "electron-devtools-installer": "^2.2.3",
-    "eslint": "^4.15.0",
-    "eslint-friendly-formatter": "^3.0.0",
-    "eslint-loader": "^1.7.1",
-    "eslint-plugin-vue": "^4.0.0"
+    "core-js": "^3.16.1",
+    "vue": "^2.6.14",
+    "babel-eslint": "^10.1.0",
+    "cross-env": "^7.0.3",
+    "electron": "^13.1.9",
+    "electron-builder": "^22.11.7",
+    "electron-devtools-installer": "^3.2.0",
+    "eslint": "^7.32.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-vue": "^7.16.0"
   }
 }

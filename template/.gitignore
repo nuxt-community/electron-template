@@ -10,5 +10,8 @@ npm-debug.log
 # Nuxt generate
 dist
 
+# Electron Builder Output
+build
+
 # Mac OS
 .DS_Store
