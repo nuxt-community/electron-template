@@ -1,3 +1,6 @@
+> [!NOTE]
+> This repository is archived. This template was built for Nuxt 2, which reached end of life on June 30, 2024.
+
 <p align="center">
     <img width="128" src="https://raw.githubusercontent.com/nuxt-community/electron-template/master/template/static/icon.png">
 </p>
